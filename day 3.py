@@ -16,3 +16,17 @@
 #     print("total amount:",total)#pgm2
 
 
+a=int(input("enter value a"))
+b=int(input("enter value b"))
+c=input("enter your +,-,*,/")
+if c=='+':
+    print("a+b")
+elif c=='-':
+    print("a-b")
+elif c=='/':
+    print("a/b")
+elif c=='*':
+    print(a*b)
+else:
+    print("enter valid operator")
+
